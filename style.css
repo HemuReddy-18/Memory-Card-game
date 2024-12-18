@@ -1,0 +1,109 @@
+.page_1{
+
+    background-color:wheat;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+    
+    
+}
+.container_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.int_1{
+    background-color: rgb(36, 145, 145);
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+.head_1{
+     width: 100%;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    font-size:45px ;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: rgb(189, 199, 140);
+    align-items: center;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(90, 97, 101);
+}
+h1{
+    text-align: center;
+    
+}
+li{
+    font-size: 25px;
+}
+dd{
+    font-size: 20px;
+}
+.btn_1{
+    background-color: rgb(182, 188, 150);
+    padding: 10px 20px;
+    width: 10%;
+}
+.btn_1:hover{
+background-color: white;
+}
+
+.page_3 {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    background-color: #7f97a8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 2rem;
+    color: transparent;
+    transition: transform 0.3s ease;
+}
+.card.flipped {
+    background-color: #fff;
+    color: black;
+    transform: rotateY(360deg);
+
+}
+.btn_3 {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
